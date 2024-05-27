@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 18%;
+    margin: 1%;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.salom {
+    padding: 20px;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.kunga {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.sssa {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    height: 18px;
+    margin-bottom: 10px;
+}
+
+.narx {
+    font-size: 13px;
+    color: gray;
+}
+
+.oylik {
+    padding: 10px 5px;
+    width: 120px;
+    height: 18px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    margin-bottom: 25px;
+}
+
+.bk {
+    margin-top: 10px;
+    padding: 10px 5px;
+    width: 135px;
+    height: 18px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    margin-bottom: 45px;
+}
+
+.ak {
+    margin-top: 10px;
+    padding: 10px 5px;
+    width: 135px;
+    height: 18px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    margin-bottom: 25px;
+}
+
+.uzun {
+    padding: 10px 5px;
+    width: 155px;
+    height: 18px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    margin-bottom: 25px;
+}
+
+.star {
+    width: 13px;
+    height: 13px;
+}
+
+del {
+    color: gray;
+    font-size: 14px;
+}
+
+.xaq_narx {
+    font-size: 18px;
+}
+
+.load-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 70%;
+    background-color: #c4c3c3;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.load-more:hover {
+    transition: .5s;
+    background-color: #b4b2b2;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.savat {
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
