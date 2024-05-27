@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 
+
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -25,7 +27,7 @@
     cursor: pointer;
 }
 
-.salom {
+.ake {
     padding: 20px;
 }
 
@@ -33,12 +35,12 @@
     width: 100%;
 }
 
-.kunga {
+.mahsulot {
     margin-bottom: 5px;
     font-size: 18px;
 }
 
-.sssa {
+.orta {
     display: flex;
     align-items: center;
     gap: 7px;
@@ -117,7 +119,7 @@ del {
     padding: 10px 20px;
     font-size: 20px;
     width: 70%;
-    background-color: #c4c3c3;
+    background-color: #ececec;
     border: 1px solid transparent;
     cursor: pointer;
     transition: .5s;
@@ -125,7 +127,7 @@ del {
 
 .load-more:hover {
     transition: .5s;
-    background-color: #b4b2b2;
+    background-color: #ccc;
 }
 
 .bottom {
